@@ -1,0 +1,187 @@
+html {
+background-color: black;
+}
+
+img{
+    
+}
+
+
+
+h1 {
+color: white;
+text-align:center;
+font-weight: bold;
+text-decoration: underline;
+}
+
+p {
+color: white;
+}
+
+iframe{
+    position:relative;
+    left:50vw;
+    transform:translate(-50%, 0);
+}
+
+h3{
+    text-align: -webkit-center;
+    font-size:40px;
+}
+
+body {
+  padding:2%;
+}
+
+strong{
+	color:white;
+}
+
+ul{
+
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  display:flex;
+
+
+
+}
+
+.main-menu{
+
+  padding-inline-start: 0%;  
+  
+}
+
+.main-menu > li {
+  text-align: center;
+  justify-content: center; 
+  width: 20%;  
+ 
+}
+
+ .main-menu li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  justify-content: center;
+  padding: 14px;
+  width: 100%;
+  box-sizing: border-box;  
+
+}
+
+.active {
+  background-color: white;
+  color:black !important;
+}
+
+.main-menu >li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color:black; 
+}
+
+.dropdown {
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-inline-start: 0px !important;
+}
+
+
+
+.dropdown-content > li> a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center; 
+  width: 273.28px; 
+
+}
+
+.dropdown-content li a:hover {background-color: #b3b3b3;}
+
+.dropdown:hover .dropdown-content {
+  display: block; 
+  
+}
+
+p.unu
+{
+	
+	color: red;
+	text-align: justify;
+	
+}
+
+p.doi
+{
+	
+	color: blue;
+	text-align: left;
+	font-style:normal;
+	
+}
+
+p.trei
+{
+	
+	color: violet;
+	text-align: right;
+	font-style: oblique ;
+}
+
+p.patru
+{
+	
+	color: green;
+	text-align: center;
+	font-style: italic;
+}
+
+.cinci
+{
+	color:chocolate;
+	text-decoration: none;
+	font-size: 10;
+	text-align: left;
+	
+	
+}
+
+
+.img2{
+	
+	text-align: left;
+	
+}
+
+img.sase{
+	
+    position:relative;
+    left:50vw;
+    transform:translate(-50%, 0);
+
+}
+
+
+@media screen and ( max-width: 600px ) {
+img.sase { width: 400px; }
+}
+
+
+@media screen and ( max-width: 600px ) {
+iframe { width: 400px; }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+<title>WW2 Wiki</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./css/Contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<script src="scripts.js"></script>	
+<script src="arry.js"></script>
+
+</head>
+<body>
+
+      
+
+  <nav role="navigation">
+    <ul class="main-menu">
+      <li><a href="../Home/Home.html">Home</a></li>
+      <li><a href="../Allies/Allies.html">Allies</a></li>
+      <li><a href="../Axis/Axis.html">Axis</a></li>
+      <li class="dropdown"><a href="" class="dropbtn">Photos</a>
+        <ul class="dropdown-content">
+         
+        </ul>
+      </li>
+      <li><a class="active" href="Contact.html">Contact</a></li>
+    </ul>    
+  </nav>
+
+	<table align="center">
+		
+		<tr>
+				<td><a href="https://www.facebook.com/?ref=tn_tnmn" class="fa fa-facebook"></a></td>
+				<td><a href="https://twitter.com/?lang=ro" class="fa fa-twitter"></a></td>
+		
+		
+		
+		</tr>
+		
+		<tr>
+				<td><a href="https://www.youtube.com/" class="fa fa-youtube"></a></td>
+				<td><a href="https://www.instagram.com/?hl=ro" class="fa fa-instagram"></a></td>
+		
+		
+		
+		</tr>
+	
+	</table>
+		  
+	
+	
+	<div align="center" class="box">Animatie</div>
+	<div align="center" class="box">Hover</div>
+	
+	
+<div>
+ 
+  <input type="button" value="Click It!" onClick="test()"/>
+	<div id="result"></div>
+	
+</div>
+	
+	
+
+
+<div class="wrapper">
+  <h2>Register</h2>
+  <div id="error_message"></div>
+  <form id="myform" onsubmit="return validate();">
+    <div class="input_field">
+        <input type="text" onKeyUp="validate();" placeholder="Name" id="name">
+    </div>
+    <div class="input_field">
+        <input type="text" onKeyUp="validate();" placeholder="Password"  id="password">
+    </div>
+	  
+	  <p>Drag the slider to display the current age.</p>
+
+<div class="slidecontainer">
+  <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+  <p>Age: <span id="demo"></span></p>
+</div>
+	  <script src="slider.js"> </script>
+	
+	  
+    <div class="input_field">
+        <input type="text" onKeyUp="validate();" placeholder="Phone" id="phone">
+	  </div>
+	 <div class="input_field">
+        <select type="text" placeholder="Select" id="select" >
+  		<option value="SelectCity" >--Select City--</option>
+  		<option value="Ploiesti">Ploiesti</option>
+  		<option value="Bucuresti">Bucuresti</option>
+  		<option value="Arad">Arad</option>
+		</select>
+		 
+    </div>
+    <div class="input_field">
+        <input type="text" onKeyUp="validate();"  placeholder="Email" id="email">
+    </div>
+	  
+	  <div class="input_field">
+		  <p><input type="radio"  value ="Yes" id="like"/>Male</p>
+		  <p><input type="radio"  value ="No" id="dislike"/>Female</p>
+	  </div>
+    <div class="input_field">
+        <textarea placeholder="Message" onKeyUp="validate();"  id="message"></textarea>
+    </div>
+	  
+	  <div class="input_field">
+       <p><input type="checkbox" placeholder="terms" id="terms"> I accept the <u>Terms and Conditions</u></p>
+    </div>
+	  
+    <div class="btn">
+        <input type="submit">
+    </div>
+  </form>
+</div>
+
+	<div>
+	<table align="center" >
+		<tr>
+			
+			<td>
+				Enter any value:
+			</td>
+			<td>
+				<input id="txtAryValue" type="text" />
+			</td>
+			<td>
+				<input id="btnAryAdd" type="button" value="Push" onlick="Push()" />
+			</td>
+			<td>
+				<input id="btnAryPop" type="button" value="Pop" onlick="Pop()" />
+			</td>
+			<td>
+				<input id="btnAryUnshift" type="button" value="Unshift" onlick="DoAryUnshift()" />
+			</td>
+			<td>
+				<input id="btnAryShift" type="button" value="Shift" onlick="DoAryShift()" />
+			</td>
+		
+		
+		
+		</tr>
+	</table>
+	</div>
+	
+	<hr>
+		<div id="AryCount"></div>
+		<br>
+		<div id="AryItems"></div>
+	
+	
+	<hr>	
+	<div>A script on this page starts this clock:</div>
+
+<div  id="demo2"></div>
+
+	<div><button onclick="myStopFunction()">Stop time</button></div>
+	
+</body>
+</html>
